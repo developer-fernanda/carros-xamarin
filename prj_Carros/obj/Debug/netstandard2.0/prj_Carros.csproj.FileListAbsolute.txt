@@ -1,0 +1,34 @@
+C:\Users\wesle\source\repos\prj_Carros\prj_Carros\bin\Debug\netstandard2.0\prj_Carros.deps.json
+C:\Users\wesle\source\repos\prj_Carros\prj_Carros\bin\Debug\netstandard2.0\prj_Carros.dll
+C:\Users\wesle\source\repos\prj_Carros\prj_Carros\bin\Debug\netstandard2.0\ref\prj_Carros.dll
+C:\Users\wesle\source\repos\prj_Carros\prj_Carros\bin\Debug\netstandard2.0\prj_Carros.pdb
+C:\Users\wesle\source\repos\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\prj_Carros.csprojAssemblyReference.cache
+C:\Users\wesle\source\repos\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\wesle\source\repos\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\listaVeiculos.xaml.g.cs
+C:\Users\wesle\source\repos\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\wesle\source\repos\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\prj_Carros.AssemblyInfoInputs.cache
+C:\Users\wesle\source\repos\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\prj_Carros.AssemblyInfo.cs
+C:\Users\wesle\source\repos\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\prj_Carros.csproj.CoreCompileInputs.cache
+C:\Users\wesle\source\repos\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\wesle\source\repos\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\prj_Carros.dll
+C:\Users\wesle\source\repos\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\ref\prj_Carros.dll
+C:\Users\wesle\source\repos\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\prj_Carros.pdb
+C:\Users\wesle\source\repos\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\Compras.xaml.g.cs
+C:\Users\wesle\source\repos\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\Finalizado.xaml.g.cs
+C:\TDS - II\PAM\Xamarin\prj_Carros\prj_Carros\bin\Debug\netstandard2.0\prj_Carros.deps.json
+C:\TDS - II\PAM\Xamarin\prj_Carros\prj_Carros\bin\Debug\netstandard2.0\prj_Carros.dll
+C:\TDS - II\PAM\Xamarin\prj_Carros\prj_Carros\bin\Debug\netstandard2.0\ref\prj_Carros.dll
+C:\TDS - II\PAM\Xamarin\prj_Carros\prj_Carros\bin\Debug\netstandard2.0\prj_Carros.pdb
+C:\TDS - II\PAM\Xamarin\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\prj_Carros.csprojAssemblyReference.cache
+C:\TDS - II\PAM\Xamarin\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\TDS - II\PAM\Xamarin\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\Compras.xaml.g.cs
+C:\TDS - II\PAM\Xamarin\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\Finalizado.xaml.g.cs
+C:\TDS - II\PAM\Xamarin\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\listaVeiculos.xaml.g.cs
+C:\TDS - II\PAM\Xamarin\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\TDS - II\PAM\Xamarin\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\prj_Carros.AssemblyInfoInputs.cache
+C:\TDS - II\PAM\Xamarin\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\prj_Carros.AssemblyInfo.cs
+C:\TDS - II\PAM\Xamarin\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\prj_Carros.csproj.CoreCompileInputs.cache
+C:\TDS - II\PAM\Xamarin\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\XamlC.stamp
+C:\TDS - II\PAM\Xamarin\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\prj_Carros.dll
+C:\TDS - II\PAM\Xamarin\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\ref\prj_Carros.dll
+C:\TDS - II\PAM\Xamarin\prj_Carros\prj_Carros\obj\Debug\netstandard2.0\prj_Carros.pdb

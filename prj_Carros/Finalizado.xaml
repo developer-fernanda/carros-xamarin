@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="prj_Carros.Finalizado">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White" HorizontalOptions="Center" >
+            <FlexLayout Direction="Row"
+                BackgroundColor="White"
+                AlignItems="Center"
+                JustifyContent="SpaceBetween"       
+                Padding="5, 20">
+ 
+                    <Button x:Name="btnVoltar" Text="voltar" Clicked="btnVoltar_Clicked"
+                            BackgroundColor="White" TextColor="#191970" FontSize="20"
+                            FontAttributes="Bold" WidthRequest="100"></Button>
+
+                <Image Source="logoAzulMenor.png" WidthRequest="200"></Image>
+            </FlexLayout>
+
+            <StackLayout BackgroundColor="White" Margin="40">
+                <Label Text="{Binding nome}" FontSize="23"
+                       BackgroundColor="White" TextColor="#FE9F15"
+                       VerticalOptions="Center" HorizontalOptions="Center"
+                       FontAttributes="Bold"></Label>
+
+                <Label Text="Compra efetuada com Sucesso!" FontSize="23"
+                       BackgroundColor="White" TextColor="#FE9F15"
+                       VerticalOptions="Center" HorizontalOptions="Center" FontAttributes="Bold" />
+
+
+            </StackLayout>
+            <Image Source="GOKU.jpg" Margin="0,0,0,50"></Image>
+            <Label Text="MB agora!!!" HorizontalOptions="Center" TextColor="#191970" FontSize="40"
+                            FontAttributes="Bold"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

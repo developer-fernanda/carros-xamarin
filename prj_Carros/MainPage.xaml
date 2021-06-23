@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="prj_Carros.MainPage"
+             BackgroundImageSource="teste.png">
+
+    <StackLayout>
+        <FlexLayout 
+            JustifyContent="Center">
+            <Image Source="logoOrange.png" WidthRequest="250"></Image>
+        </FlexLayout>
+        <FlexLayout
+            Direction="Column" 
+            JustifyContent="Center"
+            Padding="50, 205">
+            <Label Text="Seja bem vindo!" HorizontalTextAlignment="Center"
+                   TextColor="White" FontAttributes="Bold" FontSize="40" Padding="0"></Label>
+
+        </FlexLayout>
+
+
+            <Button x:Name="BtnEntrar" Text="Entrar" FontAttributes="Bold"
+                    FontSize="20" TextColor="White" BackgroundColor="#FE9F15"
+                    Clicked="BtnEntrar_Clicked" Padding="20" Margin="60,0"></Button>
+
+    </StackLayout>
+        
+
+</ContentPage>

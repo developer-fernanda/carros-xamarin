@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qy0MCFXGFOFmZOwbk1mMQb70C5oBz5A+Au1t6RcK5trZoh76fFFc221W4xCHDnoGhrUmEjnK6nrwn54LWH3Q/g==",
+  "success": true,
+  "projectFilePath": "C:\\TDS - II\\PAM\\Xamarin\\prj_Carros\\prj_Carros\\prj_Carros.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ferna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

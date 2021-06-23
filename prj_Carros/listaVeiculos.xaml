@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="prj_Carros.listaVeiculos">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#191970">
+            <Frame BackgroundColor="#191970">
+                <FlexLayout Direction="Row"         
+                             AlignItems="Center "
+                             JustifyContent="SpaceAround"
+                             Wrap="Wrap">
+                    <Image x:Name="Logo" WidthRequest="130" Source="logoOrange.png"></Image>
+                    <Label Text="{Binding nomeUsuario}"
+                       TextColor="White"
+                       HorizontalTextAlignment="Center"
+                       FontSize="18"
+                       FontAttributes="Bold"></Label>
+                </FlexLayout>
+            </Frame>
+            <StackLayout>
+
+                <!--pesquisa-->
+                <SearchBar TextChanged="SearchBar_TextChanged" TextColor="White" BackgroundColor="#191970"></SearchBar>
+
+                <ListView ItemSelected="veiculosListView_ItemSelected"  ItemsSource="{Binding lvVeiculos}" IsPullToRefreshEnabled="True"  
+                       x:Name="veiculosListView" HasUnevenRows="true" SeparatorVisibility="Default" >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <FlexLayout Direction="Column"         
+                             BackgroundColor="#191970"
+                             AlignItems="Center "
+                             JustifyContent="Center" >
+                                    <!--IMAGEM CARRO-->
+                                    <StackLayout BackgroundColor="White" 
+                                             WidthRequest="412"
+                                             HorizontalOptions="Center">
+                                        <Label Text="{Binding nomeCarro}"
+                                           HorizontalOptions="Center"
+                                           TextColor="#191970"
+                                           FontAttributes="Bold"
+                                           FontSize="25"/>
+                                        <Image Source="{Binding imagemCarro}"/>
+                                    </StackLayout>
+                                    <!--INFORMAÇÕES-->
+                                    <StackLayout WidthRequest="250"
+                                             Padding="5">
+                                        <FlexLayout Direction="Row"         
+                                         BackgroundColor="#191970"
+                                         AlignItems="Center"
+                                         JustifyContent="Center">
+
+                                            <Label Text="{Binding anoModelo}"
+                                           TextColor="White"
+                                           FontSize="20"
+                                           Padding="10"/>
+                                        </FlexLayout>
+                                    </StackLayout>
+                                    <StackLayout>
+                                        <FlexLayout Direction="Row"         
+                                         BackgroundColor="#191970"
+                                         AlignItems="Center"
+                                         Margin="10,10,10,50"
+                                         JustifyContent="SpaceAround" >
+                                            <Label Text="{Binding preco}"
+                                           TextColor="White"
+                                           FontSize="25"
+                                           FontAttributes="Bold"
+                                           HorizontalTextAlignment="Center"/>
+                                            <Button x:Name="comprar"
+                                                CommandParameter="{Binding .}"
+                                                Clicked="comprar_Clicked"
+                                                Text="+Mais"
+                                                TextColor="White"
+                                                BackgroundColor="#FE9F15"></Button>
+                                        </FlexLayout>
+                                    </StackLayout>
+                                </FlexLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

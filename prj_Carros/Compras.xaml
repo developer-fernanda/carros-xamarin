@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="prj_Carros.Compras">
+    <ContentPage.Content>
+        <StackLayout Padding="5" BackgroundColor="White">
+
+            <Image Source="logoOrange.png"></Image>
+            <FlexLayout Direction="Column"         
+                AlignItems="Center"
+                JustifyContent="Center">
+
+                <Label Text="{Binding nomeCarro}" FontSize="25"
+                       TextColor="#191970" FontAttributes="Bold" ></Label>
+                <Image Source="{Binding imagemCarro}" WidthRequest="200"></Image>
+
+            </FlexLayout>
+            <StackLayout Padding="10" BackgroundColor="white">
+                <Label Text="Insira seus dados:" FontSize="25" FontAttributes="Bold"
+                       TextColor="#191970"></Label>
+                
+                <Label Text="Nome" TextColor="#191970" FontSize="20"></Label>
+                <Entry x:Name="strNome" Placeholder="Digite seu nome"></Entry>
+                
+                <Label Text="Telefone" TextColor="#191970" FontSize="20"></Label>
+                <Entry x:Name="strFone" Placeholder="Digite seu Telefone"></Entry>
+                
+                <Label Text="E-mail" TextColor="#191970" FontSize="20"></Label>
+                <Entry x:Name="strEmail" Placeholder="Digite seu E-mail"></Entry>
+
+                <Button x:Name="Comprar" Clicked="Comprar_Clicked" BackgroundColor="#191970"
+                        Text="Comprar" TextColor="White" FontAttributes="Bold"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
