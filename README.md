@@ -10,14 +10,14 @@
    <li> Confirmação de compra. </li> 
 </ul>
 
-<h1>Imagens do projeto</h1>
+<h3>IMAGENS DO PROJETO</h3>
 <h4> Tela inicial </h4>
 <img src="1.png" alt="">
 <br />
 <h4> Portfólio de veículos </h4>
 <img src="2.png" alt="">
 <br />
-<h4> Dados do cliente; </h4> 
+<h4> Dados do cliente </h4> 
 <img src="3.png" alt="">
 <br />
 <h4> Tela de confirmação de compra </h4> 
