@@ -17,6 +17,9 @@
 <h4> Portfólio de veículos </h4>
 <img src="2.png" alt="">
 <br />
+<h4> Detalhes do veículos </h4>
+<img src="5.png" alt="">
+<br />
 <h4> Dados do cliente </h4> 
 <img src="3.png" alt="">
 <br />
